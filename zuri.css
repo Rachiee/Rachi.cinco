@@ -39,9 +39,14 @@ body {
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-    font-weight: 800;
+    font-weight: 700;
     color: #514949;
     margin-bottom: 36px;
+}
+@media (max-width: 768px) .hero h2{
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
 }
 .hero p {
     font-size: 16px;
@@ -49,8 +54,28 @@ body {
     color: #514949;
     opacity: 0.9;
 }
+.hero p a{ 
+    color: hsl(3, 80%, 54%);
+    text-decoration: none;
+}
 .btn-div {
     margin-top: 92px;
+}
+.my-btn{
+    padding: 11px 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.my-btn.btn-red{
+    background-color: hsl(3, 80%, 54%);
+    color: white;
+    margin-right: 25px;
+    border: none;
+}
+.my-btn.btn-red-outline{
+    border: 1px solid hsl(3, 80%, 54%);
+    background-color: #fff;
+    color: hsl(3, 80%, 54%);
 }
 @media (min-width: 768px) .d-md-none {
     display: none !important;
@@ -58,6 +83,136 @@ body {
 section.programs {
     background-color: #fff;
     overflow: hidden;
+}
+.container-fluid{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1440px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.program-content{
+    padding-top: 0;
+}
+.heading{
+    color: hsl(3, 80%, 54%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+@media (max-width: 768px)
+h3.heading{
+    margin-top: 60px;
+}
+.slogan{
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 8px;
+    padding-bottom: 60px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.program-card-zed {
+    position: relative;
+    z-index: 1;
+}
+.text-center {
+    text-align: center !important;
+}
+@media (min-width: 992px) .col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.program-card{
+    width: 100px;
+    background-color: hsl(0, 100%, 99%);
+    padding: 61px 47px 82px 36px;
+}
+.text-left{
+    text-align: left;
 }
 .footer {
     margin-top: 215px;
